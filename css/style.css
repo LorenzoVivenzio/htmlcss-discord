@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
 }
-.nav ul li{
+ul li{
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -58,13 +58,13 @@
     line-height: 40px;
 }
 .cont-blue {
-    width: 60%;
+    width: 70%;
 }
 .img-item{
     background-size: cover;
 }
 .cont-pink{
-    width: 40%;
+    width: 30%;
 }
 .pdg{
     padding: 10px;
@@ -163,9 +163,20 @@
 .bg-marine{
     background-color: aquamarine;
 }
-.bg-grey{
-    background-color: grey;
+.bg-gray{
+    background-color: lightgray;
 }
 .bg-darkblue{
     background-color: darkblue;
+}
+.title-bold{
+    font-size: 3rem;
+    text-align: left;
+    font-family: sans-serif;
+}
+.paragraph{
+    padding-top: 30px;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 1rem;
 }
