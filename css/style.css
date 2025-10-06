@@ -116,6 +116,12 @@ ul li{
     width: 70%;
     height: 400px;
     border: 1px solid black;
+    margin-top: 50px;
+}
+.img-item4{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 .b-s{
     border: 1px solid white;
@@ -138,6 +144,19 @@ ul li{
 }
 .login{
     width: 50px;
+}
+.title-bold{
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+.text-left{
+    text-align: left;
+}
+.paragraph{
+    padding-top: 30px;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 1rem;
 }
 .bg-purple{
     background-color: purple;
@@ -169,14 +188,21 @@ ul li{
 .bg-darkblue{
     background-color: darkblue;
 }
-.title-bold{
-    font-size: 3rem;
-    text-align: left;
-    font-family: sans-serif;
+.text-center{
+    text-align: center;
 }
-.paragraph{
-    padding-top: 30px;
-    font-family: sans-serif;
-    text-align: left;
-    font-size: 1rem;
+.scheda-quattro{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-scheda-quattro{
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mg100px{
+    margin-top: 100px;
 }
