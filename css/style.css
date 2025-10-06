@@ -39,23 +39,22 @@ li{
 .direction-inverse{
     flex-direction: row-reverse;
 }
-.login{
-    color: white;
-    background-color: white;
-}
-.login a{
+/* .login a{
     text-decoration: none;
     color: black;
     font-size: 15px;
     font-family: sans-serif;
-}
+} */
 .btn-style{
-    display:inline-block ;
-    border-radius: 20px;
+    display: inline-block;
+    border-radius:20px;
     height: 40px;
-    width:100px;
-    text-align: center;
-    line-height: 40px;
+    padding: 10px 30px;
+    background-color: bisque;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .cont-blue {
     width: 70%;
@@ -76,7 +75,7 @@ li{
     width: 50%;
 }
 .login{
-    width: 25%;
+    /* width: 25%; */
 }
 .bg-orange{
     background-color: orange;
