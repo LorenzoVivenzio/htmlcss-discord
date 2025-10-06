@@ -4,18 +4,22 @@
     box-sizing: border-box;
 }
 .header{
-    background-color: aqua;
-    padding: 10px;
+    background-color: rgb(70, 109, 216);
+    padding: 20px;
 }
 .flex{
     display: flex;
 }
 .nav{
-    width: 60%;
-    border: 1px solid black;
+    width: 80%;
     margin: 0 auto;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+.logo{
+    justify-content: center;
     align-items: center;
 }
 .nav ul li{
@@ -25,6 +29,7 @@
     justify-content: center;
     align-items:center;
     padding-left: 15px;
+    color: rgb(255, 255, 255);
 }
 .doppio-contenitore{
     width: 60%;
@@ -34,7 +39,25 @@
 .direction-inverse{
     flex-direction: row-reverse;
 }
-
+.login{
+    color: white;
+    background-color: white;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+.btn-style{
+    display:inline-block ;
+    border-radius: 20px;
+    height: 30px;
+    width:200px;
+    text-align: center;
+    line-height: 30px;
+}
 .cont-blue{
     width: 60%;
 }
@@ -43,9 +66,6 @@
 }
 .pdg{
     padding: 10px;
-}
-.cont{
-    border: 1px solid black;
 }
 .logo{
     width: 25%;
