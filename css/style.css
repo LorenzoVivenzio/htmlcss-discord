@@ -34,19 +34,14 @@ li{
 .doppio-contenitore{
     max-width: 60%;
     height: 500px;
-    /* border: 1px solid black; */
+
 }
 .direction-inverse{
     flex-direction: row-reverse;
 }
-/* .login a{
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    font-family: sans-serif;
-} */
+
 .btn-style{
-    display: inline-block;
+    /* display: inline-block; */
     border-radius:20px;
     height: 40px;
     padding: 10px 30px;
@@ -77,12 +72,7 @@ a{
 .link{
     width: 50%;
 }
-.login{
-    /* width: 25%; */
-}
-.bg-orange{
-    background-color: orange;
-}
+
 .mg-auto{
     margin: 0 auto;
 }
@@ -98,11 +88,12 @@ a{
     height: 500px;
 }
 .descrition{
-    width: 30%;
+    width: 40%;
     text-align: center;
     color: white;
     font-weight: bold;
     font-family: sans-serif;
+    /* padding: 20px; */
 }
 .descrition h1{
     font-size: 3rem;
@@ -114,10 +105,11 @@ a{
 .cont-purple{
     width: 40%;
 }
+
 .cont-green{
     width: 70%;
     height: 400px;
-    /* border: 1px solid black; */
+
     margin-top: 50px;
 }
 .img-item4{
@@ -145,6 +137,7 @@ a{
     justify-content: space-between;
     align-items: center;
     height: 30px;
+    padding: 20px;
 }
 .title-bold{
     font-size: 3rem;
@@ -159,36 +152,15 @@ a{
     text-align: left;
     font-size: 1rem;
 }
-/* .bg-purple{
-    background-color: purple;
-} */
-/* .bg-blue{
-    background-color: blue;
-} */
-/* .bg-pink{
-    background-color: pink;
-} */
+
 .bg-black{
     background-color: black;
 }
-/* .bg-green{
-    background-color: green;
-} */
-.bg-salmon{
-    background-color: darksalmon;
-}
-.bg-aqua{
-    background-color: aqua;
-}
-/* .bg-marine{
-    background-color: aquamarine;
-} */
+
 .bg-gray{
     background-color: lightgray;
 }
-/* .bg-darkblue{
-    background-color: darkblue;
-} */
+
 .text-center{
     text-align: center;
 }
